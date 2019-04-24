@@ -153,7 +153,7 @@ def main():
     # split into train and test sets
     train_X, train_y, test_X, test_y = split(reframed)
 
-    # network(train_X, train_y, test_X, test_y)
+    network(train_X, train_y, test_X, test_y)
 
 if __name__ == '__main__':
     main()
